@@ -1,13 +1,13 @@
 package com.easyliu.sensordatacollection.activity;
 
-import com.easyliu.sensordatacollection.unity.GestureAccGyroDetector;
-import com.tencent.tws.sensordatacollection.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.Window;
+
+import com.easyliu.sensordatacollection.R;
+import com.easyliu.sensordatacollection.unity.GestureAccGyroDetector;
 
 public class MainActivity extends Activity {
 	private GestureAccGyroDetector mGestureAccGyroDetector;
